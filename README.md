@@ -14,10 +14,10 @@ The dashboard is available:
 
 - Fork this repo.
 - Change the relevant `*.csv` files in `data` directory:
- - i.e. upload new updated files for the current semi-annual report.
- - more detailed explanation under 'Methods' in 'Report' section of the readme.
+ -- i.e. upload new updated files for the current semi-annual report.
+ -- more detailed explanation under 'Methods' in 'Report' section of the readme.
 - Deploy the app with [Heroku](https://dashboard.heroku.com/apps "Heroku").
- - Use the 'Deploy from GitHub' option.
+ -- Use the 'Deploy from GitHub' option.
 
 ## Report
 
