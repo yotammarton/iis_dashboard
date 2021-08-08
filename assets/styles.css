@@ -1,0 +1,154 @@
+.js-plotly-plot .plotly .modebar {
+    padding-top: 5%;
+    margin-right: 3.5%;
+}
+
+body {
+    background-color: #252e3f;
+    margin: 5%;
+    text-transform: none;
+}
+
+
+.narrow_container {
+    float: left;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    width: 49%;
+    padding: 10px;
+    margin: 0.5%;
+    position: relative;
+    box-shadow: 2px 2px 2px lightgrey;
+    box-sizing: border-box;
+
+}
+
+
+.wide_container {
+    float: left;
+    width: 99%;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin: 10px;
+    padding: 15px;
+    position: relative;
+    box-shadow: 2px 2px 2px lightgrey;
+}
+
+.map_container {
+    width: 75%;
+    height: 70%;
+}
+
+
+.main_map_container {
+    width: 100%;
+}
+
+.pretty_container {
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin: 10px;
+    padding: 15px;
+    position: relative;
+    box-shadow: 2px 2px 2px lightgrey;
+}
+
+
+.row_rapper {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.row_rapper_main_header{
+    /*float: right;*/
+    /*width: 100%;*/
+    /*position: relative;*/
+    /*overflow: auto;*/
+    /*display: inline;*/
+    /*position: relative;*/
+}
+
+.pt-4 {
+    width: 100%;
+    height: 100%;
+}
+
+
+.slider-container {
+    float: left;
+    width: 33.3%;
+    background-color: #f9f9f9;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 30px;
+}
+
+.slider-container input {
+    width: 20%;
+}
+
+
+#group-1-toggle {
+    margin-left: 30%;
+}
+
+.mini_container {
+    background-color: #f9f9f9;
+    margin-left: 10px;
+    position: relative;
+}
+
+.mini_container label {
+    display: block;
+}
+
+
+/* Placement
+/*–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@media only screen and (max-width: 1250px) {
+    /*For mobile and smaller screens*/
+    #app-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: stretch;
+        margin-bottom: 5rem;
+    }
+}
+
+@media (min-width: 1251px) {
+    /*For desktop*/
+    #app-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: stretch;
+        height: 100rem;
+        margin-bottom: 5rem;
+    }
+}
+
+/* Left column
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@media only screen and (max-width: 1250px) {
+    /*For mobile and smaller screens*/
+    #left-column {
+        margin-right: 1.5%;
+        width: 100%;
+    }
+}
+
+@media (min-width: 1251px) {
+    /*For desktop*/
+    #left-column {
+        margin-right: 1.5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-content: center;
+        flex: 6 60%;
+    }
+}
